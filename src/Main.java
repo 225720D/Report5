@@ -1,6 +1,7 @@
 public class Main {
-    public static void main(String[] args) {
-        String str = "null";
-        System.out.println(str.length());
+    public static void main(String[] args) throws Exception {
+        String str = "壱百満";
+        int value = Integer.parseInt(str);
     }
 }
+
